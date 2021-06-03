@@ -1,0 +1,32 @@
+$color-dark: #333D4B;
+$color-light: #FEFCF7;
+$dark-syan: #0E8784;
+$font: 'Fraunces', sans-serif;
+$fw-bold: 700;
+$fw-madium: 500;
+
+
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+    background-color: #FEFCF7;
+    font-weight: 400;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+@import './general';
+

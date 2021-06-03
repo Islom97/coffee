@@ -1,0 +1,30 @@
+.commitment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+    margin: 0 auto;
+    margin-top: 168px;
+    margin-bottom: 256px;
+    &__img {
+        width: 445px;
+        height: 520px;
+        border-radius: 10px;
+    }
+
+    
+    &__title {
+        font-family: $font;
+        font-size: 40px;
+        line-height: 48px;
+        color: $color-dark;
+        margin-bottom: 32px;
+    }
+    
+    &__text {
+        width: 540px;
+        line-height: 26px;
+        opacity: .8;
+        color: $color-dark;
+    }
+}

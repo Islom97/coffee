@@ -1,0 +1,39 @@
+.quality-bg{
+    background-color: #2C343E;
+    border-radius: 10px;
+    height: 474px;
+    margin-bottom: 168px;
+}
+
+.quality {
+    position: relative;
+    display: flex;
+    // justify-content: space-between;
+    width: 1110px;
+    margin: 0 auto;
+    
+    &__title {
+        font-family: $font;
+        font-size: 40px;
+        line-height: 48px;
+        color: $color-light;
+        margin-bottom: 32px;
+        margin-top: 88px;
+    }
+    
+    &__text {
+        width: 540px;
+        color: $color-light;
+        line-height: 26px;
+        opacity: 0.8;
+    }
+    
+    &__img {
+        img{
+            position: absolute;
+            border-radius: 10px;
+            right: 0;
+            top: -88px;
+        }
+    }
+}

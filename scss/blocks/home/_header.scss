@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 44px auto;
+    
+    .logo {
+        transition: .3s all ease;
+        &:hover{
+            opacity: .6;
+        }
+        &__img {
+            width: 236px;
+            height: 26px;
+        }
+    }
+    .nav {
+        
+        
+        &__list {
+            display: flex;
+            align-items: center;
+        }
+        
+        &__item {
+            margin-left: 33px;
+            
+            &:nth-child(1){
+                margin-left: 0;
+            }
+        }
+        
+        &__link {
+            font-size: 12px;
+            line-height: 15px;
+            font-weight: $fw-bold;
+            color: #83888F;
+            letter-spacing: 0.923077px;
+            text-transform: uppercase;
+            transition: .3s ease all;
+
+            &:hover{
+                color: $dark-syan;
+            }
+        }
+    }
+}

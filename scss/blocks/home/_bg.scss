@@ -1,0 +1,50 @@
+.bg {
+    position: relative;
+    &__img{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    
+    .header__write{
+        position: absolute;
+        color: $color-light;
+        width: 400px;
+        top: 104px;
+        left: 58px;
+        
+        .write__title{
+            font-family: $font;
+            font-size: 48px;
+            line-height: 48px;
+            margin: 0;
+            margin-bottom: 24px;
+        }
+        
+        .write__text{
+            font-size: 15px;
+            line-height: 25px;
+            opacity: 0.8;
+            margin-bottom: 40px;
+        }
+
+        .write__link{
+            display: inline-block;
+            color: $color-light;
+            padding: 15px 31px;
+            font-family: $font;
+            font-size: 18px;
+            line-height: 25px;
+            background-color: $dark-syan;
+            border-radius: 6px;
+            transition: 1s all cubic-bezier(0.2,-0.82, 0.58, 1);
+            &:hover{
+                background-color: #66D2CF;
+            }
+            &:active{
+                background-color: #E2DEDB;
+            }
+        }
+    }
+}

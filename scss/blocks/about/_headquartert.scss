@@ -1,0 +1,72 @@
+.headquarters {
+    width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 168px;
+    
+    &__title {
+        font-family: $font;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 72px;
+    }
+    
+    &__list {
+        display: flex;
+        
+    }
+    
+    &__item {
+        margin-right: 95px;
+        width: 285px;
+        height: 262px;
+        
+        &::before{
+            content: '';
+            position: absolute;
+            background-image: url(../../../img/about/headquarters-1.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 41px;
+            height: 49px;
+        }
+    }
+
+    .canada{
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            background-image: url(../../../img/about/headquarters-3.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 51px;
+            height: 50px;
+        }
+    }
+    .australia{
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            background-image: url(../../../img/about/headquarters-2.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 49px;
+            height: 44px;
+        }
+    }
+    
+    &__subtitle {
+        font-family: $font;
+        font-size: 32px;
+        line-height: 36px;
+        color: $color-dark;
+        margin-bottom: 24px;
+        margin-top: 95px;
+    }
+    
+    &__subtext {
+        line-height: 26px;
+    }
+}

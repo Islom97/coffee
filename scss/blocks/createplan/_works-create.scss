@@ -1,0 +1,33 @@
+.works__create{
+    background-color: #2C343E;
+    margin: 0;
+    padding: 91px 150px 107px 85px;
+    margin-bottom: 159px;
+    border-radius: 10px;
+    .fc{
+        color: $color-light;
+    }
+}
+
+.elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 791px;
+    height: 2px;
+    background-color: #FDD6BA;
+    margin-bottom: 67px;
+}
+.element {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    box-sizing: border-box;
+    background-color: #2C343E;
+}
+
+.element__bg{
+    background-color: $color-light;
+}
