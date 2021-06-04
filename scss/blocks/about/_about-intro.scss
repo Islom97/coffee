@@ -4,6 +4,7 @@
         img{
             width: 100%;
             height: 450px;
+            border-radius: 10px;
         }
     }
     
@@ -14,15 +15,32 @@
         left: 85px;
         color: $color-light;
         
+        @media only screen and (max-width: 770px) {
+            top: 118px;
+            left: 58px;
+        }
+        
         .write__title{
             font-family: $font;
             font-size: 40px;
             line-height: 48px;
             margin: 0;
             margin-bottom: 24px;
+            
+            @media only screen and (max-width: 770px) {
+                font-size: 32px;
+                line-height: 40px;
+            }
         }
         .write__text{
             line-height: 26px;
+            opacity: 0.8;
+            
+            @media only screen and (max-width: 770px) {
+                width: 392px;
+                font-size: 15px;
+                line-height: 25px;
+            }
         }
     }
 }

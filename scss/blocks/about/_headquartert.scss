@@ -2,6 +2,12 @@
     width: 1110px;
     margin: 0 auto;
     margin-bottom: 168px;
+
+    @media only  screen and (max-width: 770px) {
+        width: 720px;
+        padding: 0 15px;
+        margin-bottom: 264px;
+    }
     
     &__title {
         font-family: $font;
@@ -20,6 +26,12 @@
         margin-right: 95px;
         width: 285px;
         height: 262px;
+
+        @media only  screen and (max-width: 770px) {
+            width: 223px;
+            height: 104px;
+            margin-right: 10px;
+        }
         
         &::before{
             content: '';
@@ -64,6 +76,10 @@
         color: $color-dark;
         margin-bottom: 24px;
         margin-top: 95px;
+
+        @media only  screen and (max-width: 770px) {
+            font-size: 24px;
+        }
     }
     
     &__subtext {

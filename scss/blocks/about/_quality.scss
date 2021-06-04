@@ -11,6 +11,11 @@
     // justify-content: space-between;
     width: 1110px;
     margin: 0 auto;
+
+    @media only  screen and (max-width: 770px) {
+        width: 720px;
+        padding: 0 15px;
+    }
     
     &__title {
         font-family: $font;
@@ -19,6 +24,14 @@
         color: $color-light;
         margin-bottom: 32px;
         margin-top: 88px;
+
+        @media only  screen and (max-width: 770px) {
+            margin-top: 224px;
+            margin-bottom: 24px;
+            font-size: 32px;
+            // text-align: center;
+            margin-left: 120px;
+        }
     }
     
     &__text {
@@ -26,6 +39,14 @@
         color: $color-light;
         line-height: 26px;
         opacity: 0.8;
+
+        @media only  screen and (max-width: 770px) {
+            text-align: center;
+            font-size: 15px;
+            line-height: 25px;
+            margin: 0 auto;
+            margin-left: 65px;
+        }
     }
     
     &__img {
@@ -34,6 +55,15 @@
             border-radius: 10px;
             right: 0;
             top: -88px;
+
+            @media only  screen and (max-width: 770px) {
+                width: 573px;
+                height: 320px;
+                object-fit: cover;
+                object-position: bottom;
+                top: -160px;
+                left: 60px;
+            }
         }
     }
 }

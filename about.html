@@ -36,7 +36,10 @@
     <main class="container">
         <section class="about">
             <div class="about__intro">
-                <img src="./img/about/about-bg.jpg" alt="bg" width="1280" height="450">
+                <picture>
+                    <source media="(max-width:770px)" srcset="./img/about/tablet-bg.png">
+                    <img src="./img/about/about-bg.jpg" alt="bg" width="1280" height="450">
+                </picture>
             </div>
 
             <div class="about__write">
@@ -45,7 +48,7 @@
             </div>
         </section>
 
-        <section class="commitment">
+        <section class="commitment container">
             <img src="./img/about/commirment.jpg" srcset="./img/about/commirment.jpg 1x, ./img/about/commitment@2x.jpg 2x" alt="bar" class="commitment__img" width="445" height="520">
 
             <div class="commitment__write">
