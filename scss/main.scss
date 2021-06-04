@@ -23,10 +23,18 @@ body{
 }
 ul{
     list-style-type: none;
+
 }
 a{
     text-decoration: none;
 }
 
-@import './general';
 
+@media only screen and (max-width: 770px) {
+    .container{
+        width: 720px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+}
+@import './general';

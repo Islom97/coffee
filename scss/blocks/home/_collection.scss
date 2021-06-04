@@ -36,6 +36,9 @@
     
     &__item {
         text-align: center;
+        img{
+            margin-bottom: 71px;
+        }
     }
     
     &__title {
@@ -43,7 +46,7 @@
         line-height: 32px;
         color: $color-dark;
         font-family: $font;
-        margin-top: 71px;
+        // margin-top: 71px;
         margin-bottom: 24px;
     }
     
@@ -52,6 +55,48 @@
         font-size: 16px;
         line-height: 26px;
         color: $color-dark;
+    }
+    
+    @media only screen  and (max-width: 770px) {
+        
+            .shadow__title {
+                position: relative;
+                top: 35px;
+                font-size: 96px;
+                
+                &::before{
+                    content: '';
+                    position: absolute;
+                    width: 690px;
+                    height: 118px;
+                    
+                }
+            }
+            
+            &__list {
+                position: relative;
+                z-index: 20;
+                display: block;
+                align-items: center;
+                margin-bottom: 200px;
+            }
+            
+            &__item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                img{
+                    margin-bottom: 32px;
+                }
+            }
+            
+            &__text {
+                margin-bottom: 32px;
+            }
+            
+        
     }
 }
 

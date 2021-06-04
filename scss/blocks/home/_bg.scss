@@ -28,7 +28,7 @@
             opacity: 0.8;
             margin-bottom: 40px;
         }
-
+        
         .write__link{
             display: inline-block;
             color: $color-light;
@@ -46,5 +46,14 @@
                 background-color: #E2DEDB;
             }
         }
+    }
+    
+    @media only screen and (max-width: 770px) {
+        .bg {
+            &__img{
+                height: 500px;
+            }
+        }
+    
     }
 }
