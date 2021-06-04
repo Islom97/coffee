@@ -794,6 +794,7 @@ a {
   border-radius: 10px;
   height: 474px;
   margin-bottom: 168px;
+  width: 100%;
 }
 
 .quality {
@@ -803,12 +804,12 @@ a {
   display: flex;
   width: 1110px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 @media only screen and (max-width: 770px) {
   .quality {
-    width: 720px;
-    padding: 0 15px;
+    width: 100%;
   }
 }
 
@@ -863,21 +864,19 @@ a {
     -o-object-position: bottom;
        object-position: bottom;
     top: -160px;
-    left: 60px;
+    left: 45px;
   }
 }
 
 .headquarters {
   width: 1110px;
   margin: 0 auto;
-  margin-bottom: 168px;
 }
 
 @media only screen and (max-width: 770px) {
   .headquarters {
     width: 720px;
     padding: 0 15px;
-    margin-bottom: 264px;
   }
 }
 
@@ -893,6 +892,13 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 168px;
+}
+
+@media only screen and (max-width: 770px) {
+  .headquarters__list {
+    margin-bottom: 244px;
+  }
 }
 
 .headquarters__item {
@@ -998,7 +1004,6 @@ a {
 
 .works__create {
   background-color: #2C343E;
-  margin: 0;
   padding: 91px 150px 107px 85px;
   margin-bottom: 159px;
   border-radius: 10px;
@@ -1046,6 +1051,16 @@ a {
   }
 }
 
+@media only screen and (max-width: 770px) {
+  .works__bg {
+    border-radius: 10px;
+    background-color: #2C343E;
+  }
+  .works__create {
+    padding-left: 0;
+  }
+}
+
 .drink {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1056,8 +1071,20 @@ a {
   padding: 0 85px;
 }
 
+@media only screen and (max-width: 770px) {
+  .drink {
+    padding: 0 15px;
+  }
+}
+
 .drink .menu {
   width: 255px;
+}
+
+@media only screen and (max-width: 770px) {
+  .drink .menu {
+    display: none;
+  }
 }
 
 .drink .menu__item {
@@ -1110,6 +1137,12 @@ a {
   margin-bottom: 56px;
 }
 
+@media only screen and (max-width: 770px) {
+  .drink .answers .answers__title {
+    font-size: 32px;
+  }
+}
+
 .drink .answers .answers__title::after {
   content: '';
   position: absolute;
@@ -1136,6 +1169,13 @@ a {
   background-color: #F4F1EB;
   border-radius: 8px;
   color: #333D4B;
+}
+
+@media only screen and (max-width: 770px) {
+  .drink .answers .answers__info .info__item {
+    margin-right: 10px;
+    padding: 32px 25px 84px;
+  }
 }
 
 .drink .answers .answers__info .info__item:nth-child(3) {
@@ -1168,6 +1208,13 @@ a {
   padding: 0 85px;
 }
 
+@media only screen and (max-width: 770px) {
+  .order {
+    display: block;
+    padding: 0 15px;
+  }
+}
+
 .order__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1181,10 +1228,25 @@ a {
           align-items: flex-end;
 }
 
+@media only screen and (max-width: 770px) {
+  .order__content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .order__write {
   background-color: #2C343E;
   padding: 27px 64px;
   margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 770px) {
+  .order__write {
+    padding: 27px 43px;
+    border-radius: 8px;
+  }
 }
 
 .order__title {

@@ -2,17 +2,32 @@
     display: flex;
     justify-content: flex-end;
     padding: 0 85px;
+
+    @media only screen and (max-width: 770px) {
+        display: block;
+        padding: 0 15px;
+        // margin-left: 200px;
+    }
     
     &__content{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+
+        @media only screen and (max-width: 770px) {
+            align-items: center;
+        }
     }
     
     &__write {
         background-color: #2C343E;
         padding: 27px 64px;
         margin-bottom: 40px;
+
+        @media only screen and (max-width: 770px) {
+            padding: 27px 43px;
+            border-radius: 8px;
+        }
     }
     
     &__title {

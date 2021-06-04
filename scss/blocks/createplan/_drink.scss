@@ -3,8 +3,16 @@
     justify-content: space-between;
     padding: 0 85px;
     
+    @media only screen and (max-width: 770px) {
+            padding: 0 15px;
+    }
+
     .menu{
         width: 255px;
+
+        @media only screen and (max-width: 770px) {
+            display: none;
+        }
         
         &__item{
             border-bottom: 1px solid rgba(131, 136, 143, 0.25);
@@ -54,6 +62,10 @@
             font-family: $font;
             margin-bottom: 56px;
 
+            @media only screen and (max-width: 770px) {
+                font-size: 32px;
+            }
+
             &::after{
                 content: '';
                 position: absolute;
@@ -79,6 +91,11 @@
                 background-color: #F4F1EB;
                 border-radius: 8px;
                 color: $color-dark;
+
+                @media only screen and (max-width: 770px) {
+                    margin-right: 10px;
+                    padding: 32px 25px 84px;
+                }
 
                 &:nth-child(3){
                     margin-right: 0;

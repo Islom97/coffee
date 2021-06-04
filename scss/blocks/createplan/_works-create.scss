@@ -1,6 +1,6 @@
+
 .works__create{
     background-color: #2C343E;
-    margin: 0;
     padding: 91px 150px 107px 85px;
     margin-bottom: 159px;
     border-radius: 10px;
@@ -36,5 +36,16 @@
     .elements {
         width: 497px;
         margin-bottom: 48px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .works__bg{
+        border-radius: 10px;
+        background-color: #2C343E;
+    }
+
+    .works__create{
+        padding-left: 0;
     }
 }
