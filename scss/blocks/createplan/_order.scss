@@ -44,6 +44,10 @@
         color: #fff;
         width: 602px;
         font-family: $font;
+
+        @media only screen and(max-width: 375px) {
+            width: 279px;
+        }
     }
     
     &__link {
@@ -59,6 +63,10 @@
         text-align: center;
         width: 220px;
         transition: .5s ease all;
+
+        @media only screen and(max-width: 375px) {
+            margin-bottom: 120px;
+        }
 
         &:hover{
             background-color: #66D2CF;
