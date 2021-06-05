@@ -1,6 +1,8 @@
 .collection {
     position: relative;
     margin-top: 262px;
+
+    
     
     .shadow__title {
         position: absolute;
@@ -12,7 +14,7 @@
         color: #83888fbb;
         font-size: 150px;
         line-height: 72px;
-        z-index: 10;
+        z-index: 10;        
         
         &::before{
             content: '';
@@ -22,7 +24,12 @@
             position: absolute;
             z-index: 11;
             
+            @media only screen and (max-width: 375px) {
+                width: 286px;
+                height: 72px;
+            }
         }
+
     }
     
     &__list {
@@ -95,8 +102,51 @@
             &__text {
                 margin-bottom: 32px;
             }
-            
+    }
+
+    @media only screen  and (max-width: 375px){
+
+
+        .shadow__title {
+        position: absolute;
+        font-size: 40px;
+        top: -50px;    
         
+        &::before{
+            width: 286px;
+            height: 72px;
+        }
+
+    }
+    
+    &__list {
+        flex-direction: column;
+        margin-bottom: 120px;
+    }
+    
+    &__item {
+        display: flex;
+        flex-direction: column;
+        img{
+            margin-bottom: 71px;
+        }
+    }
+    
+    &__title {
+        font-size: 24px;
+        line-height: 32px;
+        color: $color-dark;
+        font-family: $font;
+        // margin-top: 71px;
+        margin-bottom: 24px;
+    }
+    
+    &__text {
+        width: 255px;
+        font-size: 16px;
+        line-height: 26px;
+        color: $color-dark;
+    }
     }
 }
 

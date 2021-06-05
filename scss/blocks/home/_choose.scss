@@ -8,6 +8,10 @@
         @media only screen and(max-width: 770px) {
             height: 573px;
         }
+
+        @media only screen and(max-width: 770px) {
+            height: 902px;
+        }
     
     
     &__title {
@@ -23,6 +27,12 @@
         @media only screen and(max-width: 770px) {
             font-size: 32px;
             padding-top: 56px;
+            margin-bottom: 24px;
+        }
+
+        @media only screen and(max-width: 375px) {
+            font-size: 28px;
+            padding-top: 64px;
             margin-bottom: 24px;
         }
     }
@@ -41,6 +51,11 @@
             font-size: 15px;
             line-height: 25px;
             margin-bottom: 70px;
+        }
+
+        @media only screen and(max-width: 375px) {
+            width: 279px;
+            margin-bottom: 64px;
         }
     }
     
@@ -69,6 +84,13 @@
             margin: 0 auto;
             margin-bottom: 24px;
         }
+
+        @media only screen and(max-width: 375px) {
+            width: 279px;
+            height: 382px;
+            margin: 0 auto;
+            margin-bottom: 24px;
+        }
         
         &:nth-child(3){
             margin-right: 0;
@@ -94,6 +116,11 @@
                 top: 62px;
                 left: 70px;
             }
+
+            @media only screen and(max-width: 375px) {
+                top: 72px;
+                left: 103.5px;
+            }
         }
         
     }
@@ -113,6 +140,11 @@
             @media only screen and(max-width: 770px) {
                 top: 62px;
                 left: 70px;
+            }
+
+            @media only screen and(max-width: 375px) {
+                top: 72px;
+                left: 103.5px;
             }
             
         }
@@ -136,6 +168,10 @@
                 left: 70px;
             }
             
+            @media only screen and(max-width: 375px) {
+                top: 72px;
+                left: 103.5px;
+            }
         }
     }
     &__subtitle {
@@ -153,6 +189,13 @@
             margin-left: 181px;
             padding-top: 41px;
         }
+        @media only screen and(max-width: 375px) {
+            margin-top: 0;
+            margin-bottom: 24px;
+            text-align: center;
+            margin-left: 0px;
+            padding-top: 200px;
+        }
     }
     
     &__subtext {
@@ -168,6 +211,15 @@
             font-size: 15px;
             line-height: 25px;
             margin-left: 181px;
+        }
+
+
+        @media only screen and(max-width: 375px) {
+            text-align: center;
+            width: 212px;
+            font-size: 15px;
+            line-height: 25px;
+            margin: 0 auto;
         }
     }
 }

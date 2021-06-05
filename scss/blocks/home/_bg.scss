@@ -13,6 +13,13 @@
         width: 400px;
         top: 104px;
         left: 58px;
+
+        @media only screen and (max-width: 375px) {
+            width: 279px;
+            text-align: center;
+            top: 100px;
+            left: 24px;
+        }
         
         .write__title{
             font-family: $font;
@@ -20,6 +27,11 @@
             line-height: 48px;
             margin: 0;
             margin-bottom: 24px;
+
+            @media only screen and (max-width: 375px) {
+                font-size: 40px;
+                line-height: 40px;
+            }
         }
         
         .write__text{
