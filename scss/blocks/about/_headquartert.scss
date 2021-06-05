@@ -9,6 +9,12 @@
         width: 720px;
         padding: 0 15px;
     }
+
+    @media only screen and (max-width: 375px) {
+        width: 327px;
+        padding: 0;
+
+    }
     
     &__title {
         font-family: $font;
@@ -16,6 +22,11 @@
         line-height: 32px;
         color: #83888F;
         margin-bottom: 72px;
+
+        @media only screen and (max-width: 375px) {
+            width: 327px;
+            text-align: center;
+        }
     }
     
     &__list {
@@ -25,6 +36,10 @@
 
         @media only screen and (max-width:770px){
             margin-bottom: 244px;
+        }
+
+        @media only screen and (max-width: 375px) {
+            display: block;
         }
         
     }
@@ -39,6 +54,12 @@
             height: 104px;
             margin-right: 10px;
         }
+
+        @media only screen and (max-width: 375px) {
+            width: 327px;
+            height: 262px;
+            margin-bottom: 80px;
+        }
         
         &::before{
             content: '';
@@ -48,6 +69,10 @@
             background-size: cover;
             width: 41px;
             height: 49px;
+
+            @media only screen and (max-width: 375px) {
+                left: 160px;
+            }
         }
     }
 
@@ -87,11 +112,19 @@
         @media only  screen and (max-width: 770px) {
             font-size: 24px;
         }
+
+        @media only screen and (max-width: 375px) {
+            margin-top: 0;
+            padding-top: 97px;
+            text-align: center;
+        }
     }
     
     &__subtext {
         line-height: 26px;
-        @media only  screen and (max-width: 770px) {
+        
+        @media only screen and (max-width: 375px) {
+            text-align: center;
         }
     }
 }

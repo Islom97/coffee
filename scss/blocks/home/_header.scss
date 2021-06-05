@@ -20,6 +20,7 @@
         
         @media only screen and (max-width: 375px) {
             display: block;
+            cursor: pointer;
         }
 
     }
@@ -30,7 +31,7 @@
             display: none;
         }
 
-        
+
         &__list {
             display: flex;
             align-items: center;
