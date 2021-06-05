@@ -11,6 +11,10 @@ $fw-madium: 500;
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Barlow', sans-serif;
     background-color: #FEFCF7;
