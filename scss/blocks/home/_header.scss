@@ -14,16 +14,28 @@
             height: 26px;
         }
     }
+
+    .icon__menu{
+        display: none;
+        
+        @media only screen and (max-width: 375px) {
+            display: block;
+        }
+
+    }
+
     .nav {
         
+        @media only screen and (max-width: 375px) {
+            display: none;
+        }
+
         
         &__list {
             display: flex;
             align-items: center;
 
-            @media only screen and (max-width: 375px) {
-                display: none;
-            }
+            
         }
         
         &__item {
