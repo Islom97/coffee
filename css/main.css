@@ -821,6 +821,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 54px 0;
+    border-radius: 8px;
   }
 }
 
