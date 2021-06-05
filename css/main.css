@@ -1332,6 +1332,12 @@ a {
   height: 50px;
 }
 
+@media only screen and (max-width: 375px) {
+  .headquarters .canada::before {
+    left: 138px;
+  }
+}
+
 .headquarters .australia {
   position: relative;
 }
@@ -1344,6 +1350,12 @@ a {
   background-size: cover;
   width: 49px;
   height: 44px;
+}
+
+@media only screen and (max-width: 375px) {
+  .headquarters .australia::before {
+    left: 138px;
+  }
 }
 
 .headquarters__subtitle {
