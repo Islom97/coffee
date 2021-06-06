@@ -853,8 +853,31 @@ a {
   }
 }
 
+@media only screen and (max-width: 450px) {
+  .footer__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 65px;
+  }
+}
+
 .footer__item {
   margin-left: 33px;
+}
+
+@media only screen and (max-width: 450px) {
+  .footer__item {
+    margin-left: 0;
+    margin-bottom: 24px;
+  }
 }
 
 @media only screen and (max-width: 770px) {

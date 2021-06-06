@@ -26,10 +26,24 @@
             margin-top: 32px;
             margin-bottom: 65px;
         }
+
+        @media only screen and(max-width: 450px) {
+            flex-direction: column;
+            margin-right: 0;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 32px;
+            margin-bottom: 65px;
+        }
     }
     
     &__item {
         margin-left: 33px;
+
+        @media only screen and(max-width: 450px) {
+            margin-left: 0;
+            margin-bottom: 24px;
+        }
         
         @media only screen and(max-width: 770px) {
             &:nth-child(1){
