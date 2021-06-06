@@ -4,7 +4,7 @@
     height: 474px;
     margin-bottom: 168px;
     width: 100%;
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 450px) {
         padding: 0;
     }
 }
@@ -19,10 +19,10 @@
 
     @media only  screen and (max-width: 770px) {
         width: 100%;
-        // padding: 0 15px;
+        padding: 0;
     }
 
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 450px) {
         padding: 0;
         width: 327px;
     }
@@ -43,7 +43,7 @@
             margin-left: 120px;
         }
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 450px) {
             font-size: 28px;
             line-height: 28px;
             width: 327px;
@@ -67,7 +67,7 @@
             margin-left: 65px;
         }
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 450px) {
             width: 279px;
             margin-left: auto;
 
@@ -90,7 +90,7 @@
                 left: 45px;
             }
 
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-width: 450px) {
                 width: 279px;
                 height: 156px;
                 top: -78px;

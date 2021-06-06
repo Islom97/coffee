@@ -6,7 +6,7 @@
             height: 450px;
             border-radius: 10px;
 
-            @media only screen and(max-width: 375px) {
+            @media only screen and(max-width: 450px) {
                 height: 400px;
                 object-fit: cover;
                 object-position: right;
@@ -26,7 +26,7 @@
             left: 58px;
         }
 
-        @media only screen and(max-width: 375px) {
+        @media only screen and(max-width: 450px) {
             width: 0;
             top: 111px;
             left: 24px;
@@ -44,7 +44,7 @@
                 line-height: 40px;
             }
 
-            @media only screen and(max-width: 375px) {
+            @media only screen and(max-width: 450px) {
                 text-align: center;
                 width: 279px;
                 margin-right: 0;
@@ -60,7 +60,7 @@
                 line-height: 25px;
             }
 
-            @media only screen and(max-width: 375px) {
+            @media only screen and(max-width: 450px) {
                 width: 279px;
                 text-align: center;
             }

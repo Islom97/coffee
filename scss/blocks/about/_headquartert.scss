@@ -10,7 +10,7 @@
         padding: 0 15px;
     }
 
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 450px) {
         width: 327px;
         padding: 0;
 
@@ -23,7 +23,7 @@
         color: #83888F;
         margin-bottom: 72px;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 450px) {
             width: 327px;
             text-align: center;
         }
@@ -38,7 +38,7 @@
             margin-bottom: 244px;
         }
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 450px) {
             display: block;
         }
         
@@ -55,7 +55,7 @@
             margin-right: 10px;
         }
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 450px) {
             width: 327px;
             height: 262px;
             margin-bottom: 80px;
@@ -70,7 +70,7 @@
             width: 41px;
             height: 49px;
 
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-width: 450px) {
                 left: 160px;
             }
         }
@@ -87,7 +87,7 @@
             width: 51px;
             height: 50px;
 
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-width: 450px) {
                 left: 138px;
             }
         }
@@ -103,7 +103,7 @@
             width: 49px;
             height: 44px;
 
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-width: 450px) {
                 left: 138px;
             }
         }
@@ -121,7 +121,7 @@
             font-size: 24px;
         }
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 450px) {
             margin-top: 0;
             padding-top: 97px;
             text-align: center;
@@ -131,7 +131,7 @@
     &__subtext {
         line-height: 26px;
         
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 450px) {
             text-align: center;
         }
     }

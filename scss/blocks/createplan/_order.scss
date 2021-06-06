@@ -45,7 +45,7 @@
         width: 602px;
         font-family: $font;
 
-        @media only screen and(max-width: 375px) {
+        @media only screen and(max-width: 450px) {
             width: 279px;
         }
     }
@@ -64,7 +64,7 @@
         width: 220px;
         transition: .5s ease all;
 
-        @media only screen and(max-width: 375px) {
+        @media only screen and(max-width: 450px) {
             margin-bottom: 120px;
         }
 

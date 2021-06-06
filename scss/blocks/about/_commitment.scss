@@ -13,7 +13,7 @@
         margin-bottom: 304px;
     }
 
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 450px) {
         width: 329px;
         margin: 0 auto;
         display: block;
@@ -33,7 +33,7 @@
             object-fit: cover;
         }
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 450px) {
             width: 327px;
             height: 400px;
             object-fit: cover;
@@ -54,7 +54,7 @@
             margin-bottom: 30px;
         }
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 450px) {
             text-align: center;
         }
     }
@@ -71,7 +71,7 @@
             line-height: 25px;
         }
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 450px) {
             width: 327px;
             text-align: center;
         }

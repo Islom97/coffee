@@ -8,7 +8,7 @@
             width: 100%;
             height: 450px;
 
-            @media only screen and(max-width: 375px) {
+            @media only screen and(max-width: 450px) {
                 height: 400px;
             }
         }
@@ -21,7 +21,7 @@
         left: 85px;
         color: $color-light;
 
-        @media only screen and(max-width: 375px) {
+        @media only screen and(max-width: 450px) {
             top: 101px;
             left: 40px;
             width: 279px;
@@ -34,7 +34,7 @@
             margin: 0;
             margin-bottom: 24px;
 
-            @media only screen and(max-width: 375px) {
+            @media only screen and(max-width: 450px) {
                 line-height: 40px;
                 text-align: center;
             }
@@ -42,7 +42,7 @@
         .create__text{
             line-height: 26px;
 
-            @media only screen and(max-width: 375px) {
+            @media only screen and(max-width: 450px) {
                 text-align: center;
                 width: 279px;
             }

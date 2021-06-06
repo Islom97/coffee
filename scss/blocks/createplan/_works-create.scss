@@ -8,7 +8,7 @@
         color: $color-light;
     }
 
-    @media only screen and(max-width: 375px) {
+    @media only screen and(max-width: 450px) {
         padding: 80px 0;
     }
 }
@@ -22,7 +22,7 @@
     background-color: #FDD6BA;
     margin-bottom: 67px;
 
-    @media only screen and(max-width: 375px) {
+    @media only screen and(max-width: 450px) {
             display: none;
     }
 }
@@ -58,7 +58,7 @@
         padding-left: 0;
     }
 
-    @media only screen and(max-width: 375px) {
+    @media only screen and(max-width: 450px) {
         
     }
 }
