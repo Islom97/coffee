@@ -1857,6 +1857,8 @@ a {
   opacity: 0;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
 }
 
 .madal__content {
@@ -1927,8 +1929,8 @@ a {
   border: none;
   background-color: #0E8784;
   cursor: pointer;
-  -webkit-transition: .5s ease all;
-  transition: .5s ease all;
+  -webkit-transition: .5s ease all background-color;
+  transition: .5s ease all background-color;
 }
 
 .madal .cost__info .checkout:hover {

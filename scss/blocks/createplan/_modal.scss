@@ -11,6 +11,7 @@
 	opacity: 0;
 	z-index: 10;
 	background-color: rgba(0, 0, 0, 0.5);
+	transition: .4s ease;
 	
 	&__content {
 		z-index: 20;
@@ -71,15 +72,15 @@
 			border: none;
 			background-color: $dark-syan;
 			cursor: pointer;
-			transition: .5s ease all;
-
-			 &:hover{
-            background-color: #66D2CF;
+			transition: .5s ease all background-color;
+			
+			&:hover{
+				background-color: #66D2CF;
 			}
 			&:active{
 				background-color: #E2DEDB;
 			}
-
+			
 		}
 	}
 }
