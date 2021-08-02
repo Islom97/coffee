@@ -40,6 +40,12 @@
     background-color: $color-light;
 }
 
+@media only screen and (max-width: 998px) {
+    .elements {
+        width: 620px;
+        margin-bottom: 48px;
+    }
+}
 @media only screen and (max-width: 770px) {
     .elements {
         width: 497px;

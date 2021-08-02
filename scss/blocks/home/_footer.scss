@@ -19,7 +19,6 @@
     &__list {
         display: flex;
         align-items: center;
-        margin-right: 360px;
         
         @media only screen and(max-width: 770px) {
             margin: 0 auto;
@@ -39,12 +38,19 @@
     
     &__item {
         margin-left: 33px;
+        text-align: left;
 
         @media only screen and(max-width: 450px) {
             margin-left: 0;
             margin-bottom: 24px;
         }
         
+        @media only screen and(max-width: 998px) {
+            margin-left: 20px;
+            &:nth-child(1){
+                margin-left: 0;
+            }
+        }
         @media only screen and(max-width: 770px) {
             &:nth-child(1){
                 margin-left: 0;
