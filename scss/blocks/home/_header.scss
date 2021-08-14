@@ -18,16 +18,17 @@
     .icon__menu{
         display: none;
         
-        @media only screen and (max-width: 450px) {
+        @media only screen and (max-width: 565px) {
             display: block;
             cursor: pointer;
+            padding-right: 5px;
         }
 
     }
 
     .nav {
         
-        @media only screen and (max-width: 450px) {
+        @media only screen and (max-width: 565px) {
             display: none;
         }
 

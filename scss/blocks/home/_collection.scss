@@ -22,6 +22,9 @@
         @media only screen and (max-width: 998px) {
             font-size: 90px;
         }
+        @media only screen and (max-width: 480px) {
+            font-size: 36px;
+        }
         
         &::before{
             content: '';
@@ -94,8 +97,7 @@
         .shadow__title {
             position: relative;
             top: 35px;
-            font-size: 96px;
-            
+            font-size: 75px;
         }
         
         &__list {
@@ -122,16 +124,16 @@
         }
     }
     
-    @media only screen  and (max-width: 450px){
+    @media only screen  and (max-width: 565px){
         
         
         .shadow__title {
             position: absolute;
-            font-size: 40px;
+            font-size: 56px;
             top: -50px;    
             
             &::before{
-                width: 286px;
+                width: 100%;
                 height: 72px;
             }
             
@@ -160,7 +162,7 @@
         }
         
         &__text {
-            width: 255px;
+            width: 330px;
             font-size: 16px;
             line-height: 26px;
             color: $color-dark;

@@ -44,9 +44,14 @@ a{
         max-width: 720px;
     }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 565px) {
     .container{
-        max-width: 357px;
+        max-width: 480px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .container{
+        max-width: 395px;
     }
 }
 @import './general';

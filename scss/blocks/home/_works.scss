@@ -11,7 +11,7 @@
         margin-left: 20px;
     }
     
-    @media only screen and (max-width:450px) {
+    @media only screen and (max-width:565px) {
         margin: 0;
         margin-top: 717px;
         margin-bottom: 200px;
@@ -28,7 +28,7 @@
             margin-bottom: 40px;
         }
         
-        @media only screen and(max-width: 450px) {
+        @media only screen and(max-width: 565px) {
             margin-bottom: 80px;
             text-align: center;
         }
@@ -37,8 +37,13 @@
     &__list {
         display: flex;
         // align-items: center;
+
+
         
-        @media only screen and(max-width: 450px) {
+        @media only screen and (max-width: 767px) {
+            flex-wrap: wrap;
+        }
+        @media only screen and (max-width: 565px) {
             display: block;
         }
     }
@@ -52,7 +57,7 @@
         @media only screen and(max-width: 770px) {
             margin-right: 10px;
         }
-        @media only screen and(max-width: 450px) {
+        @media only screen and(max-width: 565px) {
             margin-right: 0px;
             text-align: center; 
         }
@@ -71,7 +76,7 @@
                 margin-bottom: 42px;
             }
 
-            @media only screen and(max-width: 450px) {
+            @media only screen and(max-width: 565px) {
                 text-align: center;
             }
         }
@@ -94,7 +99,7 @@
         
         
         
-        @media only screen and(max-width: 450px) {
+        @media only screen and(max-width: 565px) {
             margin: 0 auto;
             width: 327px;
             margin-bottom: 24px;
@@ -114,7 +119,7 @@
             margin-bottom: 44px;
         }
         
-        @media only screen and(max-width: 450px) {
+        @media only screen and(max-width: 565px) {
             margin: 0 auto;
             width: 327px;
             margin-bottom: 79px;
@@ -122,6 +127,8 @@
     }
     
     &__btn {
+        width: 217px;
+        margin: 0 auto;
         
         .works__link {
             display: inline-block;
@@ -134,10 +141,8 @@
             padding: 15px 31px;
             transition: .5s ease all;
 
-            @media only screen and(max-width: 450px) {
-                width: 217px;
+            @media only screen and(max-width: 565px) {
                 text-align: center;
-                margin-left: 55px;
             }
             
             &:hover{
