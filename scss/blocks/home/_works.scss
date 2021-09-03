@@ -104,6 +104,9 @@
             width: 327px;
             margin-bottom: 24px;
         }
+        @media only screen and(max-width: 480px) {
+            width: 280px;
+        }
     }
     
     &__subtext {
@@ -123,6 +126,9 @@
             margin: 0 auto;
             width: 327px;
             margin-bottom: 79px;
+        }
+        @media only screen and(max-width: 480px) {
+            width: 280px;
         }
     }
     

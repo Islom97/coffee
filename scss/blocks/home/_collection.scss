@@ -22,9 +22,7 @@
         @media only screen and (max-width: 998px) {
             font-size: 90px;
         }
-        @media only screen and (max-width: 480px) {
-            font-size: 36px;
-        }
+        
         
         &::before{
             content: '';
@@ -55,7 +53,7 @@
         
         @media only screen and (max-width: 998px) {
             flex-wrap: wrap;
-
+            
             &:nth-child(2){
                 margin: 110px;
                 padding: -110px;
@@ -69,7 +67,7 @@
         @media only screen and (max-width: 998px) {
             margin-bottom: 50px;
         }
-
+        
         
         img{
             margin-bottom: 71px;
@@ -130,7 +128,11 @@
         .shadow__title {
             position: absolute;
             font-size: 56px;
-            top: -50px;    
+            top: -50px; 
+            
+            @media only screen and (max-width: 480px) {
+                font-size: 36px;
+            }
             
             &::before{
                 width: 100%;
@@ -166,6 +168,10 @@
             font-size: 16px;
             line-height: 26px;
             color: $color-dark;
+            
+            @media only screen and (max-width: 480px) {
+                width: 280px;
+            }
         }
     }
 }

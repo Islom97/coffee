@@ -14,8 +14,8 @@
         top: 104px;
         left: 58px;
 
-        @media only screen and (max-width: 450px) {
-            width: 279px;
+        @media only screen and (max-width: 480px) {
+            width: 320px;
             text-align: center;
             top: 100px;
             left: 24px;
@@ -28,7 +28,7 @@
             margin: 0;
             margin-bottom: 24px;
 
-            @media only screen and (max-width: 450px) {
+            @media only screen and (max-width: 480px) {
                 font-size: 40px;
                 line-height: 40px;
             }

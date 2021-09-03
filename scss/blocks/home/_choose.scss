@@ -35,6 +35,11 @@
             padding-top: 64px;
             margin-bottom: 24px;
         }
+        @media only screen and(max-width: 565px) {
+            font-size: 22px;
+            padding-top: 40px;
+            margin-bottom: 24px;
+        }
     }
     
     &__text {
@@ -55,6 +60,10 @@
 
         @media only screen and(max-width: 565px) {
             width: 370px;
+            margin-bottom: 64px;
+        }
+        @media only screen and(max-width: 480px) {
+            width: 280px;
             margin-bottom: 64px;
         }
     }
@@ -124,6 +133,12 @@
             flex-direction: column;
             justify-content: center;
         }
+        @media only screen and(max-width: 480px) {
+            width: 270px;
+            height: 330px;
+        }
+
+        
         
         &:nth-child(3){
             margin-right: auto;
@@ -179,6 +194,10 @@
             width: 330px;
             font-size: 15px;
             line-height: 25px;
+            margin: 0 auto;
+        }
+        @media only screen and(max-width: 480px) {
+            width: 220px;
             margin: 0 auto;
         }
     }
