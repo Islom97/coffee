@@ -13,6 +13,7 @@ body {
   font-family: 'Barlow', sans-serif;
   background-color: #FEFCF7;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 .container {
