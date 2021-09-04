@@ -13,10 +13,10 @@ body {
   font-family: 'Barlow', sans-serif;
   background-color: #FEFCF7;
   font-weight: 400;
-  overflow-x: hidden;
 }
 
 .container {
+  overflow-x: hidden;
   max-width: 1250px;
   margin: 0 auto;
   padding: 0 15px;
@@ -65,6 +65,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   margin: 44px auto;
+  overflow-x: hidden;
 }
 
 .header .logo {
