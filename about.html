@@ -12,124 +12,175 @@
     <link rel="manifest" href="./img/icon/site.webmanifest">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Fraunces:wght@900&display=swap" rel="stylesheet">
+    <link href="./css/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-    <header class="container header">
-        <a href="index.html" class="logo">
-            <img src="./img/logo.svg" alt="Logo Cofee" class="logo__img" width="236" height="26">
-        </a>
-
-        <img class="icon__menu" src="./img/menu-icon.svg" alt="menu">
-
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="index.html" class="nav__link">HOME</a>
-                </li>
-                <li class="nav__item">
-                    <a href="about.html" class="nav__link">ABOUT US</a>
-                </li>
-                <li class="nav__item">
-                    <a href="create-plan.htm" class="nav__link">Create your plan</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <main class="container">
-        <section class="about">
-            <div class="about__intro">
-                <picture>
-                    <source media="(max-withd:450px)" srcset="./img/about/about-us-mobile-bg.png">
-                    <source media="(max-width:770px)" srcset="./img/about/tablet-bg.png">
-                    <img src="./img/about/about-bg.jpg" alt="bg" width="1280" height="450">
-                </picture>
-            </div>
-
-            <div class="about__write">
-                <h1 class="write__title">About Us</h1>
-                <p class="write__text">Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of coffee from around the world. We have since been dedicated to bring the perfect cup - from bean to brew - in every shipment.</p>
-            </div>
-        </section>
-
-        <section class="commitment container">
-            <img src="./img/about/commirment.jpg" srcset="./img/about/commirment.jpg 1x, ./img/about/commitment@2x.jpg 2x" alt="bar" class="commitment__img" width="445" height="520">
-
-            <div class="commitment__write">
-                <div class="quality__write">
-                    <h2 class="commitment__title">Our commitment</h2>
-                    <p class="commitment__text">We’re built on a simple mission and a commitment to doing good along the way. We want to make it easy for you to discover and brew the world’s best coffee at home. It all starts at the source. To locate the specific lots we want to purchase, we travel nearly 60 days a year trying to understand the challenges and opportunities in each of these places. We collaborate with exceptional coffee growers and empower a global community of farmers through with well above fair-trade benchmarks. We also offer training, support farm community initiatives, and invest in coffee plant science. Curating only the finest blends, we roast each lot to highlight tasting profiles distinctive to their native growing region.</p>
-                </div>
-
-                
-            </div>
-        </section>
-
-        <section class="container quality-bg">
-            <div class="quality">
-                <div class="quality__write">
-                    <h2 class="quality__title">Uncompromising quality</h2>
-                    <p class="quality__text">Although we work with growers who pay close attention to all stages of harvest and processing, we employ, on our end, a rigorous quality control program to avoid over-roasting or baking the coffee dry. Every bag of coffee is tagged with a roast date and batch number. Our goal is to roast consistent, user-friendly coffee, so that brewing is easy and enjoyable.</p>
-                </div>
-                <div class="quality__img">
-                    <img src="./img/about/quality.jpg" alt="quality" srcset="./img/about/quality.jpg 1x, ./img/about/quality@2x.jpg 2x">
-                </div>
-            </div>
-        </section>
-
-        <section class="headquarters">
-            <h2 class="headquarters__title">Our headquarters</h2>
-
-            <ul class="headquarters__list">
-                <li class="headquarters__item">
-                    <h3 class="headquarters__subtitle">United Kingdom</h3>
-                    <p class="headquarters__subtext">68 Asfordby Rd <br> Alcaston <br> SY6 1YA <br> +44 1241 918425</p>
-                </li>
-                <li class="headquarters__item canada">
-                    <h3 class="headquarters__subtitle">Canada</h3>
-                    <p class="headquarters__subtext">1528 Eglinton  Avenue <br> Toronto <br> Ontario  M4P 1A6 <br> +1 416 485 2997</p>
-                </li>
-                <li class="headquarters__item australia">
-                    <h3 class="headquarters__subtitle">Australia</h3>
-                    <p class="headquarters__subtext">36 Swanston Street <br> Kewell <br> Victor <br>  +61 4 9928 3629</p>
-                </li>
-            </ul>
-        </section>
-    </main>
-
-    <footer class="footer container">
-        <a href="index.html" class="logo__light">
-            <img src="./img/logo-light.svg" alt="logo" class="logo__img">
-        </a>
+    <header
+    class="container header" 
+    data-aos="fade-down" 
+    data-aos-duration="1000">
+    <a href="index.html" class="logo">
+        <img src="./img/logo.svg" alt="Logo Cofee" class="logo__img" width="236" height="26">
+    </a>
     
-        <ul class="footer__list">
-            <li class="footer__item">
-                <a href="index.html" class="footer__link">HOME</a>
+    <img class="icon__menu" src="./img/menu-icon.svg" alt="menu">
+    
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="index.html" class="nav__link">HOME</a>
             </li>
-            <li class="footer__item">
-                <a href="about.html" class="footer__link">ABOUT US</a>
+            <li class="nav__item">
+                <a href="about.html" class="nav__link">ABOUT US</a>
             </li>
-            <li class="footer__item">
-                <a href="create-plan.htm" class="footer__link">Create your plan</a>
+            <li class="nav__item">
+                <a href="create-plan.htm" class="nav__link">Create your plan</a>
             </li>
         </ul>
+    </nav>
+</header>
+
+<main class="container">
+    <section class="about">
+        <div class="about__intro">
+            <picture>
+                <source media="(max-withd:450px)" srcset="./img/about/about-us-mobile-bg.png">
+                <source media="(max-width:770px)" srcset="./img/about/tablet-bg.png">
+                <img src="./img/about/about-bg.jpg" alt="bg" width="1280" height="450">
+            </picture>
+        </div>
+        
+        <div class="about__write"
+        data-aos="fade-up"
+        data-aos-duration="3000">
+        <h1 class="write__title">About Us</h1>
+        <p class="write__text">Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of coffee from around the world. We have since been dedicated to bring the perfect cup - from bean to brew - in every shipment.</p>
+    </div>
+</section>
+
+<section class="commitment container">
+    <img data-aos="zoom-in-right" data-aos-duration="1000" src="./img/about/commirment.jpg" srcset="./img/about/commirment.jpg 1x, ./img/about/commitment@2x.jpg 2x" alt="bar" class="commitment__img" width="445" height="520">
     
-        <ul class="footer__social">
-            <li class="icons">
-                <a href="#" class="icons__link"><img src="./img/facebook.svg" alt="facebook" class="icons__img"></a>
-            </li>
-            <li class="icons">
-                <a href="#" class="icons__link"><img src="./img/twitter.svg" alt="facebook" class="icons__img"></a>
-            </li>
-            <li class="icons">
-                <a href="#" class="icons__link"><img src="./img/instagram.svg" alt="facebook" class="icons__img"></a>
-            </li>
-        </ul>
-    </footer>
-    <script src="./js/app.js"></script>
-    </body>
+    <div class="commitment__write" 
+    data-aos="fade-left"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-sine">
+    <div class="quality__write">
+        <h2 class="commitment__title">Our commitment</h2>
+        <p class="commitment__text">We’re built on a simple mission and a commitment to doing good along the way. We want to make it easy for you to discover and brew the world’s best coffee at home. It all starts at the source. To locate the specific lots we want to purchase, we travel nearly 60 days a year trying to understand the challenges and opportunities in each of these places. We collaborate with exceptional coffee growers and empower a global community of farmers through with well above fair-trade benchmarks. We also offer training, support farm community initiatives, and invest in coffee plant science. Curating only the finest blends, we roast each lot to highlight tasting profiles distinctive to their native growing region.</p>
+    </div>
     
-    </html>
+    
+</div>
+</section>
+
+<section class="container quality-bg">
+    <div class="quality">
+        <div class="quality__write">
+            <div 
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+            data-aos-easing="ease-in-out-cubic"
+            data-aos-duration="1000"
+            data-aos-delay-="300">
+                <h2 class="quality__title">Uncompromising quality</h2>
+            </div>
+            <p 
+            data-aos-delay-="600"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+            data-aos-easing="ease-in-out-cubic"
+            data-aos-duration="1000"
+            class="quality__text">Although we work with growers who pay close attention to all stages of harvest and processing, we employ, on our end, a rigorous quality control program to avoid over-roasting or baking the coffee dry. Every bag of coffee is tagged with a roast date and batch number. Our goal is to roast consistent, user-friendly coffee, so that brewing is easy and enjoyable.</p>
+        </div>
+        <div class="quality__img">
+            <img data-aos="fade-down"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000" src="./img/about/quality.jpg" alt="quality" srcset="./img/about/quality.jpg 1x, ./img/about/quality@2x.jpg 2x">
+        </div>
+    </div>
+</section>
+
+<section class="headquarters">
+    <h2 data-aos="zoom-out-right"
+    data-aos-duration="1000"
+    class="headquarters__title">Our headquarters</h2>
+    
+    <ul class="headquarters__list">
+        <li class="headquarters__item">
+            <h3
+            data-aos="zoom-out-down"
+            data-aos-duration="1000"
+            class="headquarters__subtitle">United Kingdom</h3>
+            <p 
+            data-aos="zoom-out-down"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            class="headquarters__subtext">68 Asfordby Rd <br> Alcaston <br> SY6 1YA <br> +44 1241 918425</p>
+        </li>
+        <li class="headquarters__item canada">
+            <h3 class="headquarters__subtitle"
+            data-aos="zoom-out-down"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            >Canada</h3>
+            <p class="headquarters__subtext"
+            data-aos="zoom-out-down"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+            >1528 Eglinton  Avenue <br> Toronto <br> Ontario  M4P 1A6 <br> +1 416 485 2997</p>
+        </li>
+        <li class="headquarters__item australia">
+            <h3 class="headquarters__subtitle"
+            data-aos="zoom-out-down"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+            >Australia</h3>
+            <p class="headquarters__subtext"
+            data-aos="zoom-out-down"
+            data-aos-duration="1000"
+            data-aos-delay="900"
+            >36 Swanston Street <br> Kewell <br> Victor <br>  +61 4 9928 3629</p>
+        </li>
+    </ul>
+</section>
+</main>
+
+<footer class="footer container" data-aos="fade-up" data-aos-duration="3000">
+    <a href="index.html" class="logo__light">
+        <img src="./img/logo-light.svg" alt="logo" class="logo__img">
+    </a>
+    
+    <ul class="footer__list">
+        <li class="footer__item">
+            <a href="index.html" class="footer__link">HOME</a>
+        </li>
+        <li class="footer__item">
+            <a href="about.html" class="footer__link">ABOUT US</a>
+        </li>
+        <li class="footer__item">
+            <a href="create-plan.htm" class="footer__link">Create your plan</a>
+        </li>
+    </ul>
+    
+    <ul class="footer__social">
+        <li class="icons">
+            <a href="#" class="icons__link"><img src="./img/facebook.svg" alt="facebook" class="icons__img"></a>
+        </li>
+        <li class="icons">
+            <a href="#" class="icons__link"><img src="./img/twitter.svg" alt="facebook" class="icons__img"></a>
+        </li>
+        <li class="icons">
+            <a href="#" class="icons__link"><img src="./img/instagram.svg" alt="facebook" class="icons__img"></a>
+        </li>
+    </ul>
+</footer>
+<script src="./js/aos.js"></script>
+<script>AOS.init();</script>
+<script src="./js/app.js"></script>
+</body>
+
+</html>
